@@ -1,4 +1,4 @@
-# Information-Learning-Based-Wordle-Solver-Algoritham
+# Elimination-Based-Wordle-Solver-Algoritham
 
 code coming soon!
 <br><br>
