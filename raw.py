@@ -12,6 +12,7 @@ for i in range(26):
 attempt = 0
 while(attempt<7)
     scores = []
+    scoresi = []
     for i in words:
         score = 0
         for j in words:
@@ -19,9 +20,10 @@ while(attempt<7)
                 if a[0] == j:
                     score+=int(a[1][:-1])
         scores.append(score)
+        scoresi.append(i)
     max_v = max(scores)
-    max_i = number_list.index(max_v)
-    guess = words[max_i]
+    max_i = scores.index(max_v)
+    guess = scoresi[max_i]
     print(guess)
     print("put that word into the puzzle")
     in1 = input("first letter: ")
